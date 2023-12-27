@@ -9,9 +9,9 @@ for (let i = 0; i < containers.length; i++) {
   const hideShow = (answer) => {
 
     if (icon.src.includes('icon-plus')) {
-        icon.src = 'assets/images/icon-minus.svg';
+        icon.src = './assets/images/icon-minus.svg';
       } else {
-        icon.src = 'assets/images/icon-plus.svg';
+        icon.src = './assets/images/icon-plus.svg';
       }
 
     answer.classList.toggle('hidden');
