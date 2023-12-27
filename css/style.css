@@ -50,16 +50,20 @@ body {
 }
 .container:last-child {
   border-bottom: none;
+  padding-bottom: 0;
 }
 .container:first-child {
   padding-top: 0;
+}
+.container:hover .q {
+  color: #B32BF7;
 }
 
 .q {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
   font-size: 18px;
+  color: hsl(292, 42%, 14%);
 }
 .q img {
   padding-left: 20px;
@@ -67,5 +71,12 @@ body {
 .q p {
   margin: 0;
   font-weight: 600;
-  color: hsl(292, 42%, 14%);
+}
+
+.a {
+  padding-top: 20px;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
